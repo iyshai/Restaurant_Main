@@ -1,0 +1,15 @@
+<html>
+    <head>
+      <title>Booking Slip</title>
+      <link rel="stylesheet" href="css/slip.css">
+    </head>
+    <body>
+      <h1>Booking Slip</h1>
+      <p><strong>Name:</strong> ${booking.name}</p>
+      <p><strong>Phone Number:</strong> ${booking.phoneNumber}</p>
+      <p><strong>Email:</strong> ${booking.email}</p>
+      <p><strong>Date:</strong> ${booking.date.toDateString()}</p>
+      <p><strong>Members:</strong> ${booking.member}</p>
+      <button onclick="window.print()">Print Slip</button>
+    </body>
+  </html>
